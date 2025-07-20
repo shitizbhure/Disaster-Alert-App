@@ -1,0 +1,15 @@
+disaster-alert-app/
+│
+├── backend/
+│   └── server.js               # Node.js API
+│
+├── frontend/
+│   ├── index.html              # Dashboard UI
+│   └── script.js               # Leaflet + JS logic
+│
+├── static/                     # Icons, images, styles
+├── templates/                  # (optional Flask-style HTML)
+├── README.md                   # With images, links, instructions
+├── .env                        # (API keys if needed)
+├── package.json                # For backend (Node.js)
+└── render.yaml                 # For Render deployment
